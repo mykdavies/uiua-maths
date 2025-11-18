@@ -17,3 +17,6 @@ Totient ← /×⊕(×⊃(-1|˜ⁿ⊙-₁)⊃⊢⧻)⊸⊛°/×
 
 # Fast powmod based on https://en.wikipedia.org/wiki/Modular_exponentiation#Right-to-left_binary_method
 Powmod ← ⊙◌∧(⊸˜◿×⊙˙×)⊙1+1×-1⊙(⇌⋯)
+
+# Factorial. Memoised.
+Factorial ← |1 memo(⨬(+∩Factorial⊃-₁-₂|1)⊸<₂)
