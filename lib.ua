@@ -19,4 +19,4 @@ Totient ← /×⊕(×⊃(-1|˜ⁿ⊙-₁)⊃⊢⧻)⊸⊛°/×
 Powmod ← ⊙◌∧(⊸˜◿×⊙˙×)⊙1+1×-1⊙(⇌⋯)
 
 # Factorial. Memoised.
-Factorial ← |1 memo(⨬(+∩Factorial⊃-₁-₂|1)⊸<₂)
+Factorial ← |1 memo(⨬(×Factorial⊸-₁|1)⊸<₂)
