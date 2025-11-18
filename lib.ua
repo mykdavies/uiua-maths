@@ -14,3 +14,7 @@ Totient ← /×⊕(×⊃(-1|˜ⁿ⊙-₁)⊃⊢⧻)⊸⊛°/×
 
 # TotientGCD ← /+=1∨⊙¤+1⊸⇡ # Slower
 # Totient ← |1 memo(⨬(-⊸(/+≡Solve Divisors)|1)⊸=₁) # also slower
+
+# Fast powmod based on https://en.wikipedia.org/wiki/Modular_exponentiation#Right-to-left_binary_method
+Powmod ← ⊙◌∧(⊸˜◿×⊙˙×)⊙1+1×-1⊙(⇌⋯)
+
