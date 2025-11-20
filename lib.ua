@@ -1,10 +1,22 @@
-# All divisors < n.
-Divisors ← ▽⤚(=₀◿)⊸(↘1⇡)
+# All distinct divisors including 1, n.
+AllDivisors ← ◴⊂⟜(⇌÷)▽⤚(=₀◿)⊸(↘1⇡+1⌊⊸√)
+┌─╴test
+  ˙⍤ ≍[1 3 9] AllDivisors 9
+└─╴
+# Divisors ← ▽⤚(=₀◿)⊸(↘1⇡)
+# All distinct divisors including 1, excluding n.
+Divisors ← ↘¯1AllDivisors
+┌─╴test
+  ˙⍤ ≍[1 3] Divisors 9
+└─╴
 
-# Speeds up the factorisation process.
-PrimeFactors ← ▽⊸=⊸(⊣°/×)Divisors
+# # Speeds up the factorisation process.
+# PrimeFactors ← ↘1▽⊸=⊣⊸°/×Divisors
+# ┌─╴test
+#   ˙⍤ ≍[2 3 5 7 11 13] PrimeFactors 30030
+# └─╴
 
-# FAST primes generator.
+# Best simple primes generator.
 Primes ← ▽=⊣⊸⊸°/×↘2⇡
 
 # Euler's totient function.
