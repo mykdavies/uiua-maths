@@ -8,6 +8,7 @@ AllDivisors ← ◴⊂⟜(⇌÷)▽⤚(=₀◿)⊸(↘1⇡+1⌊⊸√)
 Divisors ← ⍥(↘¯1)≠1⟜AllDivisors
 ┌─╴test
   ˙⍤ ≍[1 3] Divisors 9
+  ˙⍤ ≍[1] Divisors 1
 └─╴
 
 # # Speeds up the factorisation process.
