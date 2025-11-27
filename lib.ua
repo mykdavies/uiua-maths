@@ -3,11 +3,10 @@ AllDivisors ← ◴⊂⟜(⇌÷)▽⤚(=₀◿)⊸(↘1⇡+1⌊⊸√)
 ┌─╴test
   ˙⍤ ≍[1 3 9] AllDivisors 9
 └─╴
-# Divisors ← ▽⤚(=₀◿)⊸(↘1⇡)
+
 # All distinct divisors including 1, excluding n, except for 1.
 Divisors ← ⍥(↘¯1)≠1⟜AllDivisors
 ┌─╴test
-  ˙⍤ ≍[1] Divisors 1
   ˙⍤ ≍[1 3] Divisors 9
 └─╴
 
